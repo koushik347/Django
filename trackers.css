@@ -1,0 +1,36 @@
+.body
+{
+    font-style:"comfortaa",serif;
+}
+.header{
+    background: #0000ff;
+    color: white;
+    font-size:smaller;
+}
+.input-form
+{
+    display: flex;
+    box-shadow: 0px 0px 0px;
+    width:95%;
+    font-size: smaller;
+    box-shadow: 10px;
+
+}
+#add-btn
+{
+    background: #0000ff;
+    color: aliceblue;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.inputs
+{
+    width: 30%;
+}
+.card
+{
+    display: flex;
+    width: 20%;
+
+}

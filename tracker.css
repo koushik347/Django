@@ -1,0 +1,60 @@
+/* Parent aligned to left */
+.parent {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;   /* LEFT SIDE */
+    align-items: center;
+    padding-left: 40px;
+    display:flex;
+    align-items:center;
+}
+
+/* Circle */
+.solid-circle {
+    width: 200px;
+    height: 200px;
+    background: black;
+    border-radius: 50%;
+
+    position: absolute;
+    right:0px;
+    top: 0px;
+}
+
+/* Header inside circle */
+.header-home {
+    
+    border: 1px red;
+    display: flex;
+    margin-top: -40%;
+    
+    
+}
+
+#click-here-button
+{
+    background-color: white;
+    color: blue;
+    width:0%
+}
+#Name{
+    color: blueviolet;
+    font-size: medium ;
+    margin-left: 10%;
+    margin-right: auto;
+}
+#login-button
+{
+    background: blue;
+    color: white;
+    padding: 5px 25px;
+    display: flex;
+}
+.main-content
+{
+    margin-left: -20%;
+    margin-top: -20%;
+    font-weight: 500;
+    background:rgb(137, 110, 213)
+}
+
